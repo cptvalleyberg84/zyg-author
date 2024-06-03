@@ -1,6 +1,43 @@
 /* Fonts imported from Google Fonts - how can I use other fonts, from a different source? */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* Default Settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles */
+    background-color: #adb38f;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    /* flex-direction: column; */
+    /* generic project styles */
+    background-color: #a28fb3;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 h1 {
     font-family: 'Libre Caslon Text', serif;
     font-weight: 900;
@@ -9,4 +46,31 @@ h1 {
     letter-spacing: 3px;
     text-transform: uppercase;
 
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+
+
+    /* Enable flex property for child elements */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+/* Footer content */
+footer {
+
+    /* Enable flex property for child elements */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 0, 255);
 }
