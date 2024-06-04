@@ -21,22 +21,23 @@ body {
     /* generic project styles */
     background-color: #adb38f;
     font-family: 'Playfair Display', serif;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+
 }
 
 header {
-    display: block;
-    flex-direction: column;
+
     /* generic project styles */
     background-color: #a28fb3;
     font-family: 'Playfair Display', serif;
     width: 100%;
     padding: 0 1rem;
+    position: fixed;
     /* box style nav bar effects */
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -76,11 +77,22 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-
-
-
-
+    top: 100%;
 }
+
+/* Navigation toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 /* Main content */
 main {
@@ -111,6 +123,20 @@ footer {
 
 
 /* Media query notes for later
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles *
+    background-color: #adb38f;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 header {
     display: flex;
     flex-direction: column;
@@ -125,5 +151,7 @@ header {
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
 }
+
+
 
 */
