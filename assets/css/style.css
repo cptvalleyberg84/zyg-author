@@ -20,22 +20,23 @@ body {
     flex-direction: column;
     /* generic project styles */
     background-color: #adb38f;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 header {
-    display: flex;
-    /* flex-direction: column; */
+    display: block;
+    flex-direction: column;
     /* generic project styles */
     background-color: #a28fb3;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-
+    padding: 0 1rem;
+    /* box style nav bar effects */
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
@@ -45,6 +46,39 @@ h1 {
     color: black;
     letter-spacing: 3px;
     text-transform: uppercase;
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    min-width: 82px;
+}
+
+/* menu list line spacing */
+#menu>li {
+    margin-bottom: 1em;
+}
+
+/* menu list active styling */
+
+.active {
+    font-weight: bold;
+}
+
+/* Navbar dropdown toggle with styles */
+nav {
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+
+
+
 
 }
 
@@ -74,3 +108,22 @@ footer {
     align-items: center;
     background-color: rgb(225, 0, 255);
 }
+
+
+/* Media query notes for later
+header {
+    display: flex;
+    flex-direction: column;
+    /* generic project styles *
+    background-color: #a28fb3;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    /* box style nav bar effects *
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+*/
