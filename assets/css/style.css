@@ -38,6 +38,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    /* Centring Logo - pls check flex shrink */
+    flex-basis: 300px;
 }
 
 h1 {
@@ -47,6 +49,14 @@ h1 {
     color: black;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+#logo {
+    font-size: 2rem;
+    padding: 10% 0;
+    /* Centring Logo - pls check flex shrink */
+    flex-shrink: 1;
+    text-align: center;
 
 }
 
@@ -54,7 +64,7 @@ h1 {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
-    min-width: 82px;
+    min-width: 90px;
 }
 
 /* menu list line spacing */
@@ -72,12 +82,14 @@ h1 {
 nav {
     position: absolute;
     background-color: aliceblue;
-    width: 100%;
-    left: 0;
+
+    right: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    /* Centring Logo - pls check flex shrink */
+    flex-shrink: 8;
 }
 
 /* Navigation toggle */
@@ -87,10 +99,12 @@ nav {
 
 #nav-toggle {
     display: none;
+
 }
 
 .nav-toggle-label {
     font-size: 2rem;
+
 }
 
 
@@ -123,6 +137,8 @@ footer {
 
 
 /* Media query notes for later
+@media screen and (min-width: 768px)  {
+
 body {
     min-height: 100vh;
     display: flex;
@@ -152,6 +168,6 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-
+}
 
 */
