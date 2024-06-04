@@ -21,7 +21,6 @@ body {
     /* generic project styles */
     background-color: #adb38f;
     font-family: 'Playfair Display', serif;
-
 }
 
 header {
@@ -38,8 +37,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    /* Centring Logo - pls check flex shrink */
-    flex-basis: 300px;
+
+
 }
 
 h1 {
@@ -54,9 +53,9 @@ h1 {
 #logo {
     font-size: 2rem;
     padding: 10% 0;
-    /* Centring Logo - pls check flex shrink */
-    flex-shrink: 1;
     text-align: center;
+
+
 
 }
 
@@ -88,8 +87,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    /* Centring Logo - pls check flex shrink */
-    flex-shrink: 8;
+
 }
 
 /* Navigation toggle */
