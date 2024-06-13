@@ -36,7 +36,10 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
+    /* adding according to tutor guidelines */
+    justify-content: center;
+
 
 
 }
@@ -102,6 +105,10 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    /* Adding manual X position */
+    position: absolute;
+    top: 25px;
+    right: 5px;
 
 }
 
@@ -122,17 +129,21 @@ main {
 }
 
 /* Footer content */
-footer {
+footer #social {
 
     /* Enable flex property for child elements */
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
     background-color: rgb(225, 0, 255);
 }
 
+#social i {
+    font-size: 1.5rem;
+    padding: 5%;
+    color: #adb38f;
+}
 
 /* Media query notes for later
 @media screen and (min-width: 768px)  {
