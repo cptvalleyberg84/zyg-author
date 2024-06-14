@@ -41,15 +41,7 @@
         </nav>
 
     </header>
-    <main>
-        <section id="author">
-            <div id="cover-text">
-                <h2>Dreams in Hand</h2>
-                <h3>Bringing Imagination to Life.</h3>
-
-            </div>
-        </section>
-    </main>
+    <main>Main</main>
     <footer>
         <ul id="social">
             <li><a href="https://www.facebook.com/profile.php?id=61553659955992" target="_blank" rel="noopener"
