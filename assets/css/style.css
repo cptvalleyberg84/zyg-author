@@ -135,30 +135,48 @@ main {
     /* Allows both #author and #cover-text to take up equal space */
     padding: 20px;
     /* Adds some padding around the content for spacing */
-    text-align: center;
+
 }
 
 #author {
-    background-color: lightblue;
-    margin-top: 50px;
+    flex: 1;
+    position: relative;
+
+}
+
+#author img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 10px;
 }
 
 #cover-text {
-    background-color: lightgreen;
+    background-color: rgba(95, 14, 14, 0.8);
+    position: absolute;
+    top: 360px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 
+#bio,
+#quotes {
+    margin: 1vh;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 #bio {
-    padding: 4vh;
     background-color: pink;
-    margin-top: 50px;
 
 }
 
 #quotes {
-    padding: 4vh;
     background-color: salmon;
-    margin-top: 50px;
+
 }
 
 /* Footer content */
