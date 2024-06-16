@@ -21,6 +21,7 @@ body {
     /* generic project styles */
     background-color: #adb38f;
     font-family: 'Playfair Display', serif;
+    /* font-size: 100%; - want to try make the LOGO font smaller on smaller screens*/
 }
 
 header {
@@ -55,12 +56,22 @@ h1 {
 
 #logo {
     font-size: 2rem;
-    padding: 10% 0;
+    padding: 10% 0 6px;
     text-align: center;
 
+}
 
+.logo-sub {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+    font-size: 75%;
+    text-transform: uppercase;
 
 }
+
+
+
 
 #menu {
     font-size: 110%;
@@ -154,11 +165,16 @@ main {
 #cover-text {
     background-color: rgba(95, 14, 14, 0.8);
     position: absolute;
-    top: 360px;
+    top: 330px;
     left: 30px;
     padding: 10px;
     border-radius: 5px;
 
+
+}
+
+br {
+    padding: 10px;
 }
 
 #bio,
