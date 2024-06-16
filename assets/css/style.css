@@ -195,6 +195,36 @@ br {
 
 }
 
+
+/* Works Section */
+
+/*    <div id="works">
+            <div class="work-picture">Work Picture</div>
+            <div class="work-description">Work Description</div> */
+
+.works {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 10% 5%;
+}
+
+.work-picture {
+    flex: 1;
+
+}
+
+.work-picture img {
+    width: 100px;
+}
+
+.work-description {
+    flex: 2;
+    padding-left: 6px;
+
+
+}
+
 /* Footer content */
 footer #social {
 
