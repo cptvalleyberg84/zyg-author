@@ -232,6 +232,11 @@ br {
     border-bottom: 5px solid #555;
 }
 
+#sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Footer content */
 footer #social {
 

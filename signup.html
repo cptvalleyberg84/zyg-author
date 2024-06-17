@@ -49,14 +49,18 @@
 
     </header>
     <main>
-        <section id="sign-up">
-            <title>
-                <h1>Stay in Touch</h1>
-            </title>
-            <form method="POST" action="https://formdump.codeinstitute.net">
-                <input type="text">
-                <input type="checkbox">
-                <input type="radio">
+        <section>
+
+            <h2>Stay in Touch</h2>
+
+            <form id="sign-up" method="POST" action="https://formdump.codeinstitute.net">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="What's your Name?">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Where to send Newsletters?">
+                <label for="message">How did you find me?</label>
+                <textarea name="message" id="message" rows="2" cols="80"
+                    placeholder="Message me - answer question above or write anything you like"></textarea>
                 <input type="submit">
             </form>
 
