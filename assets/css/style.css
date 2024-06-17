@@ -180,7 +180,7 @@ br {
 #bio,
 #quotes {
     margin: 1vh;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     border-radius: 5px;
 }
@@ -195,18 +195,20 @@ br {
 
 }
 
-
-/* Works Section */
-
-/*    <div id="works">
-            <div class="work-picture">Work Picture</div>
-            <div class="work-description">Work Description</div> */
+.works-title {
+    width: 90%;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
 
 .works {
     display: flex;
     width: 90%;
     justify-content: center;
-    padding: 10% 5%;
+
+
 }
 
 .work-picture {
@@ -220,9 +222,14 @@ br {
 
 .work-description {
     flex: 2;
-    padding-left: 6px;
+    padding-left: 15px;
+    text-justify: auto;
+}
 
-
+.short-description {
+    width: 90%;
+    padding: 2%;
+    border-bottom: 5px solid #555;
 }
 
 /* Footer content */
