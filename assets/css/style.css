@@ -232,9 +232,26 @@ br {
     border-bottom: 5px solid #555;
 }
 
+
+/* SingUp Page */
+
+section h2 {
+    margin-top: 20px;
+}
+
 #sign-up {
     display: flex;
     flex-direction: column;
+
+}
+
+#benefits {
+    margin: 1vh;
+    margin-top: 30px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: salmon;
 }
 
 /* Footer content */
