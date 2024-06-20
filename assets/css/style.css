@@ -197,12 +197,37 @@ br {
 
 }
 
+
+/* Works Page */
+
 .works-title {
     width: 90%;
     text-align: center;
-    padding-top: 6%;
+    padding-top: 2%;
     padding-bottom: 2%;
     font-weight: 600;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
 }
 
 .works {
@@ -211,21 +236,26 @@ br {
     justify-content: center;
 
 
+
 }
 
 .work-picture {
     flex: 1;
-
+    display: flex;
+    justify-content: center;
 }
 
 .work-picture img {
-    width: 100px;
+    width: 90%;
+    max-width: 210px;
+
+
 }
 
 .work-description {
     flex: 2;
     padding-left: 15px;
-    text-justify: auto;
+    text-align: justify;
 }
 
 .short-description {
