@@ -55,8 +55,8 @@ h1 {
 }
 
 #logo {
-    font-size: 2rem;
-    padding: 10% 0 6px;
+    font-size: 1.5rem;
+    padding: 10% 0 0px;
     text-align: center;
 
 }
@@ -64,8 +64,8 @@ h1 {
 .logo-sub {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 3px;
-    font-size: 75%;
+    padding-bottom: 9px;
+    font-size: 60%;
     text-transform: uppercase;
 
 }
@@ -118,7 +118,7 @@ nav {
     font-size: 2rem;
     /* Adding manual X position */
     position: absolute;
-    top: 25px;
+    top: 24px;
     right: 5px;
 
 }
@@ -136,7 +136,7 @@ main {
     width: 100%;
     align-items: center;
     background-color: aqua;
-    margin-top: 100px;
+    margin-top: 72px;
 }
 
 
@@ -160,10 +160,11 @@ main {
     height: auto;
     border: 5px solid #555;
     border-radius: 10px;
+    max-width: 365px;
 }
 
 #cover-text {
-    background-color: rgba(95, 14, 14, 0.8);
+    background-color: rgba(165, 157, 157, 0.8);
     position: absolute;
     top: 330px;
     left: 30px;
@@ -183,6 +184,7 @@ br {
     width: 90%;
     padding: 10px;
     border-radius: 5px;
+    max-width: 640px;
 }
 
 #bio {
