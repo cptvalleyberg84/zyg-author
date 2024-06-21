@@ -185,7 +185,10 @@ br {
     padding: 10px;
     border-radius: 3px;
     max-width: 640px;
+    border-bottom: 5px solid #555;
 }
+
+
 
 #bio {
     background-color: #ececd5;
@@ -317,38 +320,37 @@ footer #social {
     color: #adb38f;
 }
 
-/* Media query notes for later
-@media screen and (min-width: 768px)  {
+/* Media query notes for later */
+@media screen and (min-width: 720px) {
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* generic project styles *
-    background-color: #adb38f;
-    font-family: 'Playfair Display', serif;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
+    /* Header */
+    nav {
+        display: flex;
 
+        width: fit-content;
+        padding-right: 1rem;
+        justify-content: center;
 
+    }
 
-header {
-    display: flex;
-    flex-direction: column;
-    /* generic project styles *
-    background-color: #a28fb3;
-    font-family: 'Playfair Display', serif;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    /* box style nav bar effects *
-    z-index: 99;
-    box-shadow: 0 2px 2px #3a3a3a;
-}
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
 
-}
+    #menu>li {
+        padding-left: 1rem;
+        flex: 1;
 
-*/
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
