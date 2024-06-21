@@ -1,0 +1,3 @@
+tasks:
+  - name: Web App
+    command: python3 -m http.server

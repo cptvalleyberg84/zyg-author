@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     /* generic project styles */
-    background-color: #adb38f;
+    background-color: #f5f5dc;
     font-family: 'Playfair Display', serif;
     /* font-size: 100%; - want to try make the LOGO font smaller on smaller screens*/
 }
@@ -27,7 +27,7 @@ body {
 header {
 
     /* generic project styles */
-    background-color: #a28fb3;
+    background-color: #f5f5dcea;
     font-family: 'Playfair Display', serif;
     width: 100%;
     padding: 0 1rem;
@@ -94,7 +94,7 @@ h1 {
 /* Navbar dropdown toggle with styles */
 nav {
     position: absolute;
-    background-color: aliceblue;
+    background-color: #f5f5dcea;
 
     right: 0;
     padding: 0 1rem;
@@ -135,7 +135,7 @@ main {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: aqua;
+    background-color: #f5f5dc;
     margin-top: 72px;
 }
 
@@ -164,7 +164,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(165, 157, 157, 0.8);
+    background-color: rgba(252, 255, 222, 0.8);
     position: absolute;
     top: 330px;
     left: 30px;
@@ -183,17 +183,17 @@ br {
     margin: 1vh;
     width: 90%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     max-width: 640px;
 }
 
 #bio {
-    background-color: pink;
+    background-color: #ececd5;
 
 }
 
 #quotes {
-    background-color: salmon;
+    background-color: #ececd5;
 
 }
 
@@ -284,7 +284,7 @@ section h2 {
     width: 90%;
     padding: 10px;
     border-radius: 5px;
-    background-color: salmon;
+    background-color: #ececd5;
     max-width: 640px;
 }
 
@@ -308,7 +308,7 @@ footer #social {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
-    background-color: rgb(225, 0, 255);
+    background-color: #f5f5dcea;
 }
 
 #social i {
