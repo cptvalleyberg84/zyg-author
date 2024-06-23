@@ -398,6 +398,7 @@ footer #social {
 
     main {
         margin-top: 20px;
+
     }
 
 
@@ -412,25 +413,24 @@ footer #social {
     #bio,
     #quotes {
         flex: 1;
-        /* flex-direction: column; */
-        /* flex-wrap: nowrap; */
-        /* justify-content: center; */
         min-width: 240px;
 
 
     }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1050px) {
 
-    .logo-sub {
-        padding: 0 35%;
+    #bio,
+    #quotes {
+
+        min-width: 580px;
+
+
     }
-}
 
-@media screen and (min-width: 1480px) {
-
-    .logo-sub {
-        padding: 0 40%;
+    #index-main {
+        justify-content: center;
+        align-items: center;
     }
 }
