@@ -434,7 +434,9 @@ footer #social {
 
     #intro2 {
         display: flex;
+        /* ROW display Experiment */
         flex-direction: row;
+
         align-items: flex-start;
         /* flex-wrap: wrap; */
     }
