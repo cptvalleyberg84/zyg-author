@@ -170,6 +170,8 @@ main {
     left: 30px;
     padding: 10px;
     border-radius: 5px;
+
+
 }
 
 br {
@@ -186,12 +188,6 @@ br {
     border-bottom: 5px solid #555;
 }
 
-#intro2 {
-    display: flex;
-
-    flex-direction: column;
-    align-items: center;
-}
 
 
 #bio {
@@ -353,8 +349,6 @@ footer #social {
 /* Media query notes for later */
 @media screen and (min-width: 720px) {
 
-    /* New Header */
-
     #logo {
         padding: 20px 0 3px;
         font-size: 2.5rem;
@@ -387,8 +381,6 @@ footer #social {
         padding: 10px 0 0;
     }
 
-    /* New Header Menu */
-
     #menu {
         display: flex;
         justify-content: center;
@@ -405,38 +397,25 @@ footer #social {
     }
 
     main {
-        margin-top: 0px;
+        margin-top: 20px;
 
     }
 
 
-    /* Index Page Responsive Layout */
+    /* Tryout for a different index page style */
     #index-main {
-        /* flex: 1; */
+        flex: 1;
         flex-direction: row;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         align-items: flex-start;
-
     }
-
-    #cover-text {
-        width: auto;
-    }
-
 
     #bio,
     #quotes {
         flex: 1;
         min-width: 240px;
-    }
 
 
-
-    #intro2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        /* flex-wrap: wrap; */
     }
 }
 
@@ -445,15 +424,13 @@ footer #social {
     #bio,
     #quotes {
 
-        min-width: 570px;
+        min-width: 580px;
+
+
     }
 
     #index-main {
         justify-content: center;
-        /* align-items: center; */
-    }
-
-    #intro2 {
-        flex-direction: column;
+        align-items: center;
     }
 }
