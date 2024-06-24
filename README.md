@@ -98,6 +98,9 @@ https://stackoverflow.com/questions/7250381/html-entity-for-the-middle-dot
 Website Design of:
 https://www.lesleymmblume.com/
 
+Wireframe with Balsamiq
+https://balsamiq.com/
+
 
 
 ## Special Thanks

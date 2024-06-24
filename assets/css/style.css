@@ -231,7 +231,7 @@ br {
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(173, 22, 22);
 }
 
 /* visited link */
@@ -419,7 +419,9 @@ footer #social {
 
     }
 
+    /* !!! */
     #cover-text {
+        all: unset;
         width: auto;
     }
 
@@ -435,7 +437,7 @@ footer #social {
     #intro2 {
         display: flex;
         /* ROW display Experiment */
-        flex-direction: row;
+        flex-direction: column;
 
         align-items: flex-start;
         /* flex-wrap: wrap; */
