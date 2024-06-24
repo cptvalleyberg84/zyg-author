@@ -22,37 +22,41 @@
 </head>
 
 <body>
+    <!-- Main LOGO of the Website -->
     <header>
-        <!-- 1. Adding anchor link and Header text -->
-
-        <a href="index.html">
+        <!-- Adding anchor link and Header text -->
+        <a href="index.html" aria-label="Click the Rafal Zygula logo to go back to the Home page">
             <h1 id="logo">Rafal Zygula</h1>
             <div class="logo-sub">
-                <h4>Author</h4>
-                <h4>•</h4>
-                <h4>Narrator</h4>
-                <h4>•</h4>
-                <h4>Poet</h4>
+                <p>Author</p>
+                <p>•</p>
+                <p>Narrator</p>
+                <p>•</p>
+                <p>Poet</p>
             </div>
         </a>
         <!-- navigation toggle 2 lines script -->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
         <!-- Nav Bar -->
         <nav>
             <ul id="menu">
-                <li><a href="index.html" aria-label="Home">Home</a></li>
-                <li><a href="works.html" aria-label="Works">Works</a></li>
-                <li><a href="signup.html" class="active" aria-label="Sing up">Sign Up</a></li>
+                <li><a href="index.html" class="active"
+                        aria-label="Go to our home page to find out more about the author">Home</a></li>
+                <li><a href="works.html" aria-label="Go to our Works page to check out works of Rafal">Works</a></li>
+                <li><a href="signup.html"
+                        aria-label="Go to our Sing up page to Sign up for a newsletter with exclusive content">Sign
+                        Up</a></li>
             </ul>
         </nav>
 
     </header>
+
+    <!-- Subscription Form - Stay in Touch -->
     <main id="sign-up-main">
         <section>
-
             <h2>Stay in Touch</h2>
-
             <form id="sign-up" method="get" action="signup-feedback.html">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="What's your Name?" required>
@@ -61,20 +65,19 @@
                 <label for="message">How did you find me?</label>
                 <textarea name="message" id="message" rows="3" cols="40"
                     placeholder="Message me - answer question above or write anything you like" required></textarea>
-                <input type="submit">
+                <input type="submit" value="Send it!" id="submit">
             </form>
-
-
-
-
         </section>
 
+        <!-- Description of Subscription Benefits -->
         <section id="benefits">
             <h2>Benefits</h2>
             <p> Subscribe to stay in Touch. Be the first one to receive news, get access to exclusive content and
                 stay up to date with info about new releases and special offers!</p>
         </section>
     </main>
+
+    <!-- Footer and Links to Social media -->
     <footer>
         <ul id="social">
             <li><a href="https://www.facebook.com/profile.php?id=61553659955992" target="_blank" rel="noopener"

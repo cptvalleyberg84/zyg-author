@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 a {
@@ -24,8 +25,8 @@ body {
     /* font-size: 100%; - want to try make the LOGO font smaller on smaller screens*/
 }
 
+/* Header Style = Logo and Subtitle to logo */
 header {
-
     /* generic project styles */
     background-color: #f5f5dcea;
     font-family: 'Playfair Display', serif;
@@ -37,12 +38,8 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    /* align-items: baseline; */
     /* adding according to tutor guidelines */
     justify-content: center;
-
-
-
 }
 
 h1 {
@@ -58,7 +55,6 @@ h1 {
     font-size: 1.5rem;
     padding: 10% 0 0px;
     text-align: center;
-
 }
 
 .logo-sub {
@@ -68,12 +64,10 @@ h1 {
     font-size: 60%;
     text-transform: uppercase;
     color: black;
-
+    font-weight: 700;
 }
 
-
-
-
+/* Menu Navigation Bar */
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -87,7 +81,6 @@ h1 {
 }
 
 /* menu list active styling */
-
 .active {
     font-weight: bold;
 }
@@ -96,13 +89,11 @@ h1 {
 nav {
     position: absolute;
     background-color: #f5f5dcea;
-
     right: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
 /* Navigation toggle */
@@ -112,7 +103,6 @@ nav {
 
 #nav-toggle {
     display: none;
-
 }
 
 .nav-toggle-label {
@@ -121,16 +111,12 @@ nav {
     position: absolute;
     top: 24px;
     right: 5px;
-
 }
-
 
 /* Main content  */
 main {
     /* Make main element take up any surplus space to push footer down  */
     flex: 1 0 auto;
-
-
     /* Enable flex property for child elements  */
     display: flex;
     flex-direction: column;
@@ -140,19 +126,18 @@ main {
     margin-top: 72px;
 }
 
-
+/* Index Style */
 #author,
 #cover-text {
     flex: 1;
-    padding: 20px;
     /* Adds some padding around the content for spacing */
-
+    padding: 20px;
 }
 
+/* Index Image section */
 #author {
     flex: 1;
     position: relative;
-
 }
 
 #author img {
@@ -172,10 +157,7 @@ main {
     border-radius: 5px;
 }
 
-br {
-    padding: 10px;
-}
-
+/* Index Description Texts */
 #bio,
 #quotes {
     margin: 1vh;
@@ -186,46 +168,38 @@ br {
     border-bottom: 5px solid #555;
 }
 
+/* Descriptions Flexbox */
 #intro2 {
     display: flex;
-
     flex-direction: column;
     align-items: center;
 }
 
-
+/* Bio Section Style */
 #bio {
     background-color: #ececd5;
-
 }
 
+/* Quotes Section Style */
 #quotes {
     background-color: #ececd5;
-
 }
 
+/* Bio section Heading style */
 #bio h2 {
     background-color: #f5f5dc;
-
 }
 
+/* Quotes section Heading style */
 #quotes h2 {
     background-color: #f5f5dc;
-
-}
-
-#benefits h2 {
-    background-color: #f5f5dc;
-
 }
 
 /* Works Page */
-
 .works-title {
     width: 90%;
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 4% 0 2%;
     font-weight: 600;
 }
 
@@ -239,7 +213,7 @@ a:visited {
     color: green;
 }
 
-/* mouse over link */
+/* mouse hover link */
 a:hover {
     color: rgb(173, 22, 22);
     text-decoration: underline;
@@ -251,34 +225,34 @@ a:active {
     text-decoration: underline;
 }
 
+/* Works Flexbox Styling */
 .works {
     display: flex;
     width: 90%;
     justify-content: center;
-
-
-
 }
 
+/* Work Section Image Styling */
 .work-picture {
     flex: 1;
     margin: auto;
     text-align: center;
 }
 
+/* Work Image Style */
 .work-picture img {
     width: 90%;
     max-width: 210px;
-
-
 }
 
+/* Work Section Info Style */
 .work-description {
     flex: 2;
     padding-left: 15px;
     text-align: justify;
 }
 
+/* Work Section Descritpion of the work */
 .short-description {
     width: 90%;
     padding: 2%;
@@ -286,101 +260,118 @@ a:active {
     max-width: 640px;
 }
 
-
-/* SingUp Page */
-
+/* Sing-Up Page */
 section h2 {
     margin-top: 20px;
 }
 
+/* Sign Up Flexbox Styling */
 #sign-up {
     display: flex;
     flex-direction: column;
-
-
 }
 
+/* Sing Up Form Settings */
 #sign-up label,
 #sign-up input,
 #sign-up textarea {
     margin-bottom: 9px;
-
+    resize: vertical;
 }
 
+/* Submit Button Styling */
+#submit {
+    font: inherit;
+    text-transform: uppercase;
+    color: green;
+    font-weight: 700;
+    background-color: rgba(252, 255, 222, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 90%;
+    width: 120px;
+    align-self: last baseline;
+}
+
+/* Sign-up Benefits Section */
 #benefits {
-    /* margin: 1vh; */
     margin-top: 30px;
-    width: 90%;
+    width: 60%;
     padding: 10px;
     border-radius: 5px;
     background-color: #ececd5;
     max-width: 640px;
 }
 
-.feedback #thanks {
-    margin: 45px 0;
-
+/* Benefits Heading styling */
+#benefits h2 {
+    background-color: #f5f5dc;
 }
 
+/* Feedback Thank you note Margin */
+.feedback #thanks {
+    margin: 45px 0;
+}
+
+/* Sing up Form and Feedback note padding */
 #sign-up-main,
 .feedback {
     padding: 6% 0px;
-
 }
 
-
-/* Footer content */
+/* footer content */
 footer #social {
-
-    /* Enable flex property for child elements */
+    /* enable flex property for child elements */
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
     background-color: #f5f5dcea;
-    /* border-bottom: 5px solid #555; */
-
     border-top: 2px solid #3a3a3a;
-
 }
 
+/* Social Icons Hover Feedback */
+#social i:hover {
+    color: rgb(173, 22, 22);
+}
+
+/* Social Icons Styling */
 #social i {
     font-size: 1.5rem;
     padding: 5%;
     color: #adb38f;
 }
 
-/* Media query notes for later */
+/* Media query for screens above 720px */
 @media screen and (min-width: 720px) {
 
-    /* New Header */
-
+    /* New Header Logo */
     #logo {
         padding: 20px 0 3px;
         font-size: 2.5rem;
     }
 
+    /* New Header Logo Subtitle */
     .logo-sub {
         display: flex;
         justify-content: center;
         padding: 0 20%;
         font-size: 0.8rem;
         gap: 18px;
-
-
     }
 
+    /* Removing Label (Hamburger Menu) of Navigation Bar */
     .nav-toggle-label {
         all: unset;
         display: none;
     }
 
-
-
+    /* Removing Navigation Bar Settings */
     nav {
         all: unset
     }
 
+    /* Adding New Header Style */
     header {
         all: unset;
         box-shadow: 0 2px 2px #3a3a3a;
@@ -388,7 +379,6 @@ footer #social {
     }
 
     /* New Header Menu */
-
     #menu {
         display: flex;
         justify-content: center;
@@ -397,66 +387,75 @@ footer #social {
         background-color: #ececd5;
         color: black;
         font-size: 1.2rem;
-
     }
 
+    /* Removing Bottom Margin for the Menu List */
     #menu>li {
         margin-bottom: 0px;
     }
 
+    /* Removing Top Margin of the Main Section */
     main {
         margin-top: 0px;
-
     }
-
 
     /* Index Page Responsive Layout */
     #index-main {
-        /* flex: 1; */
         flex-direction: row;
-        /* flex-wrap: wrap; */
         align-items: flex-start;
-
     }
 
-    /* !!! */
+    /* Adding Top Margin for the Section Headings */
+    section h2 {
+        margin-top: 12px;
+    }
+
+    /* Adjusting Text of the Index Image to fit media query */
     #cover-text {
         all: unset;
-        width: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #ececd5;
+        padding: 10px;
+        border-radius: 5px;
     }
 
+    /* Adjusting Heading of the Index Image Text */
+    #cover-text h2 {
+        margin-top: 0;
+        background-color: rgba(252, 255, 222, 0.8);
+    }
 
+    /* Fixing Positioning of Index Descriptions Sections */
     #bio,
     #quotes {
         flex: 1;
         min-width: 240px;
     }
 
-
-
+    /* Update to the Descriptions Flexbox */
     #intro2 {
         display: flex;
-        /* ROW display Experiment */
         flex-direction: column;
-
         align-items: flex-start;
-        /* flex-wrap: wrap; */
     }
 }
 
+/* Media query for screens above 1050px */
 @media screen and (min-width: 1050px) {
 
+    /* Fixing width for Index Descriptions Sections */
     #bio,
     #quotes {
-
         min-width: 570px;
     }
 
+    /* Adjusting position of Index Main Section */
     #index-main {
         justify-content: center;
-        /* align-items: center; */
     }
 
+    /* Adjusting Direction of the Index Descriptions Flexbox */
     #intro2 {
         flex-direction: column;
     }

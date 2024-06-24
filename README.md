@@ -1,5 +1,7 @@
 # Author Website
 
+https://cptvalleyberg84.github.io/zyg-author/
+
 This project was ininitated to create a prototype for my first author website. I've been thinking about building such web space for quite a while now. I need a place where I will be able to share my literary works and engage with audience and build an email list. 
 ![alt text](image.png)
 ## Intro
