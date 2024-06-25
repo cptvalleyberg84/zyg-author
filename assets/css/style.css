@@ -293,15 +293,20 @@ section h2 {
 /* Submit Button Styling */
 #submit {
     font: inherit;
-    text-transform: uppercase;
+
     color: green;
-    font-weight: 700;
-    background-color: rgba(252, 255, 222, 0.8);
+    font-weight: 400;
+    background-color: #fcffdecc;
     border-radius: 5px;
     cursor: pointer;
     font-size: 90%;
     width: 120px;
     align-self: last baseline;
+}
+
+#submit:hover {
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* Sign-up Benefits Section */
