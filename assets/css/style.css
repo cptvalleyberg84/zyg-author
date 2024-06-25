@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Default Settings */
-
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +9,7 @@
     line-height: 1.5;
 }
 
+/* Anchor decoration removal */
 a {
     text-decoration: none;
 }
@@ -42,6 +42,7 @@ header {
     justify-content: center;
 }
 
+/* Logo Heading Style */
 h1 {
     font-family: 'Libre Caslon Text', serif;
     font-weight: 900;
@@ -51,12 +52,14 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Logo - Author Name */
 #logo {
     font-size: 1.5rem;
     padding: 10% 0 0px;
     text-align: center;
 }
 
+/* Author Name - Logo Subtitle "Author - Narrator - Poet" */
 .logo-sub {
     display: flex;
     justify-content: space-evenly;

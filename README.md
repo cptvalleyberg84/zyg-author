@@ -1,18 +1,17 @@
+![Screenshot of the website logo](/documentation/logo-header-1-with-subtitle.png)
 # Author Website
 
-https://cptvalleyberg84.github.io/zyg-author/
+Rafal Zygula's Literary Universe is a website where people can learn about literary works of Rafal Zygula including novels, audiobooks and poetry, and find information where the works are available. The visitors will be able to subscribe to a newsletter with exclusive content and easily find social links to the authors pages.
 
-This project was ininitated to create a prototype for my first author website. I've been thinking about building such web space for quite a while now. I need a place where I will be able to share my literary works and engage with audience and build an email list. 
-![alt text](image.png)
+Website can be accessed here [Rafal Zygula's Literary Universe](https://cptvalleyberg84.github.io/zyg-author/)
+
 ## Intro
 
 **Project Descritpion**
 A personal website for Rafal Zygula, a visionary writer and author of "THE AGE OF NEW ERA". Website will serve as a platform to showcase Rafal's literary works, share updates, and connect with readers and fans. The site includes a short about section, works section with selected works and links to works, and social medias, and a sign-up form to a newsletter.
 
-
 **Purpose**
 The maini purpose of this website is to create an engaging online presence for Rafal Zygula, allowing readers to learn more about his work, stay updated with his latest projects, and easily connect with him through various channels.
-
 
 **User demographic**
 The target audience:
@@ -21,9 +20,19 @@ The target audience:
     - individuals looking for inspirational and thought-provoking content.
 
 ## Features
+
 **Navbar**
+    
     - a responsive navigation bar that adapts to different screen sizes.
-    - includes links to Home, Works, and Sign Up pages.
+   
+    - includes links to:
+        - Home 
+        - Works
+        - and Sign Up page
+    - links have animation hover effect.
+
+    - Navigation is easy to understand for the user:
+
 
 **Footer** 
     - a footer with links to social media profiles, allowing users to connect with Rafal on Facebook, YouTube and Instagram.
@@ -60,8 +69,7 @@ Smooth transition to production
 
 ## Credits
 
-CSS Styling Links:
-https://www.w3schools.com/css/css_link.asp
+1. [CSS Styling Links](https://www.w3schools.com/css/css_link.asp)
 
 Free Icons @ Font Awesome:
 https://fontawesome.com/
