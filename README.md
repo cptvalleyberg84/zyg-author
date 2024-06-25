@@ -79,10 +79,17 @@ The target audience:
     ![Bio and Quotes Section](/documentation/home-page2.png)
 
     - **Works**: Provides the list of works and links to webshops where the work can be purchased.
+        - Work Images are also clickable links.
+        - all links open in new tabs.
 
     ![Works Section](/documentation/works-section.png)
 
     - **Sign-Up**: page with a sign-up form for the Rafal's newsletter and short description of benefits that come with signing up.
+
+        - Sing-up Form has all the fields required in order to submit. 
+             - Sign-up Form Submit button:
+                - on hover the font transforms to uppercase letters and becomes bold
+                - on active the button border-radius gets bigger
 
     ![Sing-up Form](/documentation/sign-up-form.png)
 
@@ -92,7 +99,7 @@ The target audience:
 
 + **Footer** 
     
-    + a footer with links to social media profiles, allowing users to connect with Rafal on Facebook, YouTube and Instagram.
+    + footer with links to social media profiles, allowing users to connect with Rafal on Facebook, YouTube and Instagram.
     
     + links open in new tabs
 
@@ -102,7 +109,10 @@ The target audience:
 
     ![Footer Social Media Highlight](/documentation/footer-icons-highlight.png)
 
-    
++ **Miscelenous**
+
+    + Additionally, all anchor links are Accessible Rich Internet Applications (ARIA) with aria-labels to enhance accessibility, especially important as my novel is also available in audiobook format.
+
 ### Features left to implement
 
 - The website will undergo several extensions:
