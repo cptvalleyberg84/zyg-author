@@ -269,7 +269,7 @@ The live link can be found here - [Rafal Zygula's Literary Universe](https://cpt
 
 - Text written by my hand and keyboard.
 - The photo and images of book covers used on the website are coming from my personal files.
-- The favicon was generated with [Real Favicon Generator](https://realfavicongenerator.net/) based on a graphic made from a photography of my painting called "Struck by Lightning Ying-Yang" - a story of its creation is mentioned in my debut novel.
+- The favicon was generated with [Real Favicon Generator](https://realfavicongenerator.net/) based on a graphic made from a photography of my painting called "Struck by Lightning Ying-Yang" - story of the painting creation is mentioned in my debut novel.
 - The icons for the footer and hamburger menu icon were taken from Font Awesome [Free Icons @ Font Awesome](https://fontawesome.com/).
 
 **Media**
