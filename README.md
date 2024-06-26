@@ -1,7 +1,8 @@
 ![Screenshot of the website logo](/documentation/logo-header-1-with-subtitle.png)
-# *Author Website*
+---
+# *Rafal Zygula's Literary Universe - Author Website*
 
-Rafal Zygula's Literary Universe is a website where people can learn about literary works of Rafal Zygula including novels, audiobooks and poetry, and find information where the works are available. The visitors will be able to subscribe to a newsletter with exclusive content and easily find social links to the authors pages.
+Rafal Zygula's Literary Universe is a website where people can learn about literary works of Rafal Zygula including novels, audiobooks and poetry, and find information where the works are available. The visitors will be able to subscribe to a newsletter with exclusive content and easily find social links to the author's pages.
 
 Website can be accessed here [Rafal Zygula's Literary Universe](https://cptvalleyberg84.github.io/zyg-author/)
 
@@ -37,9 +38,9 @@ The target audience:
         - Works
         - and Sign Up page
 
-    + links have animation hover effect.
+    + links have feedback hover effect.
 
-    + to easily understand currently viewed page - the selected and active page is highlighted by a bold font
+    + selected and active page is highlighted by a bold font to make it easy to understand currently viewed page
 
     + a responsive navigation bar that adapts to different screen sizes.
 
@@ -55,7 +56,7 @@ The target audience:
 
         ![Mobile Navbar](/documentation/navbar-mobile-open2.png)
 
-    + feedback effect when hovering with mouse over the titles that take you to other sections:
+    + feedback effect when hovering with mouse appear only over the titles that take you to other sections:
 
         * Hover over the logo shows dark red stylish underline. Clicking the logo takes you to the index - "Home" page
 
@@ -69,33 +70,38 @@ The target audience:
 
         ![Mobile Menu Hover](/documentation/mobile-menu-hover-feedback.png)
 
+        * Menu Titles are Red, when not visited, but turn Green after they were visited once, and while active they be blue for the click
+
 + **Content Sections**
-    - **Author Section**: Features an image and a brief introduction.
 
-    ![Author Section](/documentation/home-page.png)
+    + **Landing Page** - consists of 2 sections:
 
-    - **Bio and Quotes**: Provides Insights into Rafal's writing journey and philosophical reflections.
+        - **Author Section**: Features an image and a brief introduction.
 
-    ![Bio and Quotes Section](/documentation/home-page2.png)
+        ![Author Section](/documentation/home-page.png)
 
-    - **Works**: Provides the list of works and links to webshops where the work can be purchased.
+        - **Bio and Quotes**: Provides Insights into Rafal's writing journey and philosophical reflections.
+
+        ![Bio and Quotes Section](/documentation/home-page2.png)
+        
+    + **Works**: Provides the list of works and links to webshops where the work can be purchased.
         - Work Images are also clickable links.
         - all links open in new tabs.
+        
+        ![Works Section](/documentation/works-section.png)
 
-    ![Works Section](/documentation/works-section.png)
-
-    - **Sign-Up**: page with a sign-up form for the Rafal's newsletter and short description of benefits that come with signing up.
+    + **Sign-Up**: page with a sign-up form for the Rafal's newsletter and short description of benefits that come with signing up.
 
         - Sing-up Form has all the fields required in order to submit. 
              - Sign-up Form Submit button:
                 - on hover the font transforms to uppercase letters and becomes bold
                 - on active the button border-radius gets bigger
 
-    ![Sing-up Form](/documentation/sign-up-form.png)
+        ![Sing-up Form](/documentation/sign-up-form.png)
 
     - **Thanks for Subscribing**: page with feedback after signing to the newsletter - A thank you note.
 
-    ![Thank you note](/documentation/sign-up-form2.png)
+        ![Thank you note](/documentation/sign-up-form2.png)
 
 + **Footer** 
     
@@ -119,16 +125,16 @@ The target audience:
 
     - Menu options
 
-    * more menu options including: Blog, Forum, Q&A, Sandbox and possibly more. 
+        * more menu options including: Blog, Forum, Q&A, Sandbox and possibly more. 
     
     - Home page
 
-    * adding more content focusing on news with added date of entry. Similar to blog - but shorter news with links to the Blog section.
-    * the News will wrap with flexbox to remain responsive.
+        * adding more content focusing on news with added date of entry. Similar to blog - but shorter news with links to the Blog section.
+        * the News will wrap with flexbox to remain responsive.
     
     - Works section
-    * adding more works
-    * rebuilding works section into a page with additional menu on the left where the work can be easily selected
+        * adding more works
+        * rebuilding works section into a page with additional menu on the left where the work can be easily selected
 
     - Adding more sections as mentioned in Menu options.
 
@@ -149,14 +155,14 @@ The target audience:
 
 ![Color Palette of the Author Website](/documentation/color-palette2.png)
 
-   * Beige and its various gradients were used for the background and styling of the text boxes due to its cream and paper-like appearance, creating a strong connection to the reading and writing experience of physical objects.
+   * Beige and its various gradients were used for the background and styling of the text boxes due to its cream and paper-like appearance, creating a strong connection to the reading and writing experience of newspapers, magazines and books.
    * Black color was used for the font, to enhance readability of the written word and the paper-look feeling
    * Matching Red and Green colors were chosen as a hover effect accents to highlight link properties of the text
 
 **Typography**
 
 + Libre Caslon Text, Serif
-    - Used as the main font for the website text - this same font is also used for the text in printed and ebook version of my Debut Novel. I'd like the audience to feel comfortable and familiar when visiting my website or reading my works.
+    - Used as the main font for the website text - this same font is also used for the text in printed and ebook version of my debut novel. I'd like the audience to feel comfortable and familiar whether visiting my website or reading my works.
 
     ![Typography Caslon for Paragraph](/documentation/typhography-caslon-paragraph.png)
 
@@ -172,17 +178,18 @@ The target audience:
 
 **Design Inspiration**
 
-As I am personally very connected to the paper and writing, I wanted the website to have a layout inspired by and reminniscent of traditional printed newspapers. I will continue to make the front page look like magazine with headers and styled paragraphs. 
+As I am personally very connected to the paper and writing, I wanted the website to have a layout inspired by and reminniscent of traditional printed newspapers. I will continue to make the landing page look like a front page of magazine with stylized as such headers and paragraphs. 
 
 ## Manual Testing
 
 + **QA**
     + Manual testing has been conducted to ensure the website functions as intended across different browsers and devices. Key aspects tested included:
         - navigation links
-        - from submissions
-        - responsiveness and layout integrity
+        - form submissions
+        - responsiveness 
+        - and layout integrity
 
-    - website was sent to members of family and tested in different browsers, phones and computers.
+    - website was sent to members of family and friends and tested in different browsers, phones and computers.
 
 + **Compatibility**
     + To confirm funcitonality in different environments, the website was tested on:
@@ -203,22 +210,27 @@ As I am personally very connected to the paper and writing, I wanted the website
     - [Opera](/documentation/compatibility-opera.png)
     - [Firefox](/documentation/compatibility-firefox.png)
 
++ The website responsiveness was also checked with [Am I Responsive?](https://ui.dev/amiresponsive).
+
+    Below, a sample gif showcasing responsiveness of 4 different screens and website features.
+    ![Am I Responsive?](/documentation/am-i-responsive-gifcap.gif)
+
 + **Validator Testing**
 
-    - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/) 
+    - No errors were returned when passing through the official [W3C HTML Validator](https://validator.w3.org/) 
 
     ![HTML Validation screenshot](/documentation/w3c-html-validator.png)
 
-    - No errors were returned when passing through the official [W3C Validator](https://jigsaw.w3.org/css-validator/) 
+    - No errors were returned when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
     ![CSS Validation screenshot](/documentation/w3c-css-validator.png)
 
 + **Bugs**
     + No significant bugs have been identified. Minor adjsutments were made to improve performance and user experience. 
 
-    + However several obstacles have been noted and solving them improved the experience and overal design and functionality of the website:
+    + However, several obstacles have been noted and solving them improved the experience and overal design and functionality of the website:
 
-        - building responsive design, especially with the menu met with few difficulties, but all where solved after finding the "all: unset;" property.
+        - building responsive design, especially with the menu met with few difficulties, but all where solved after finding the "all: unset;" property and building it again from scratch.
 
         - floating text box on the image at the Home page was misbehaving while working in media query min-720px, solved as above, by setting "all: unset;" and building from scratch. 
 
@@ -249,7 +261,7 @@ As I am personally very connected to the paper and writing, I wanted the website
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [Rafal Zygula's Literary Universe](https://cptvalleyberg84.github.io/zyg-author/signup.html)
+The live link can be found here - [Rafal Zygula's Literary Universe](https://cptvalleyberg84.github.io/zyg-author/index.html)
 
 ## Credits
 
@@ -257,7 +269,7 @@ The live link can be found here - [Rafal Zygula's Literary Universe](https://cpt
 
 - Text written by my hand and keyboard.
 - The photo and images of book covers used on the website are coming from my personal files.
-- The favicon was generated with [Real Favicon Generator](https://realfavicongenerator.net/) based on a graphic made from a photography of my painting called "struck by lightning Ying-Yang" - which also a story of creation is mentioned in my debut novel.
+- The favicon was generated with [Real Favicon Generator](https://realfavicongenerator.net/) based on a graphic made from a photography of my painting called "Struck by Lightning Ying-Yang" - a story of its creation is mentioned in my debut novel.
 - The icons for the footer and hamburger menu icon were taken from Font Awesome [Free Icons @ Font Awesome](https://fontawesome.com/).
 
 **Media**
@@ -288,6 +300,12 @@ The live link can be found here - [Rafal Zygula's Literary Universe](https://cpt
 14. [Wireframe with Balsamiq](https://balsamiq.com/)
 
 15. [Real Favicon Generator](https://realfavicongenerator.net/)
+
+16. [Am I Responsive?](https://ui.dev/amiresponsive)
+
+17. [gifcap](https://gifcap.dev/)
+
+18. [PageSpeed Insights](https://pagespeed.web.dev/)
 
 ## Special Thanks
 
